@@ -1,18 +1,15 @@
 class Person {
-  String name;
-  int age;
+  String nama;
+  int usia;
 
-  // Constructor
-  Person(this.name, this.age);
+  Person(this.nama, this.usia);
 
-  // Method untuk menampilkan informasi
-  void display() {
-    print("Name: $name, Age: $age");
+  void orang() {
+    print("Nama saya: $nama, Usia saya: $usia Tahun");
   }
 }
 
 void main() {
-  // Contoh penggunaan class
-  Person person1 = Person("Syafwannabil", 18);
-  person1.display();
+  Person person1 = Person("Muhammad Nur Ardi", 18);
+  person1.orang();
 }
