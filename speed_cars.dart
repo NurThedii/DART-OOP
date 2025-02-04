@@ -15,7 +15,7 @@ class Car {
 
   // Method untuk menampilkan informasi kecepatan
   void displaySpeed() {
-    print("Current Speed: $_speed km/h");
+    print("Kecepatan saat ini: $_speed km/h");
   }
 }
 
